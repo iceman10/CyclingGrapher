@@ -178,7 +178,7 @@ public class CyclingGrapherMain {
     public static void main(String[] args) throws Exception {
         // TODO Auto-generated method stub
 
-        String filename = "6.6.14ModifiedFullPoints.csv";
+        String filename = "6.6.14Modified1500Points.csv";
         
         BufferedReader CSVFile = new BufferedReader(new FileReader(filename));
 
@@ -296,7 +296,7 @@ public class CyclingGrapherMain {
         JSONObject res = obj.getJSONArray("results").getJSONObject(0);
         System.out.println(res.getDouble("elevation"));
         
-        System.out.println("Test Change");
+        //System.out.println("Test Change");
 
     }
 
